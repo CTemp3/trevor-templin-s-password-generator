@@ -248,13 +248,6 @@ var psswrdgen = function() {
 
 psswrdgen();
 
-
-
-
-
-
-
-
 // Write password to the #password input
 
 var writePassword = function() {

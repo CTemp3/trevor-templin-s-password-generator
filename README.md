@@ -6,21 +6,7 @@ This project is fairly simple, it's a password generator to provide you with a r
 
 So now I've got the password generator actually printing out when you select generate password, and it should match the criteria just fine. I've gone ahead and changed the page title and I'm gonna publish it and get it submitted. So happy to have this thing working!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Edit: thought I had my final commit done, but realised there was some empty space to trim out. Now it's ready to go!
 
 Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
 
