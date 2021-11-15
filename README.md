@@ -1,5 +1,29 @@
 # 03 JavaScript: Password Generator
 
+(scroll down for the original project specifications, they're listed there if you need them)
+
+This project is fairly simple, it's a password generator to provide you with a randomly generated password. To get this password, you need to verify a few different criteria (specify length and then decide to include or exclude capital letters, numbers, and special characters). With the criteria verified, the system works through a series of if statements that determine which character set to use for your password generation. There are seven total character sets, and they are listed at the top of the page (and identified via comments). I'm not sure how the generate password button connects up and reads the generated password, but as soon as I get that hooked up and running I'll add a section here to explain how it works.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
 
 If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).

@@ -11,6 +11,9 @@ var charslwcspcl = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()";
 var charslwcspclnmbr = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()";
 var charslttrspcl = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+// creating a blank password for the loop to add on to
+var psswrd = ""
+
 var psswrdgen = function() {
 
   var inptpsswrdlngth = window.prompt("How long would you like your password to be? Please use a numeric value between 8 and 128.")
@@ -60,10 +63,11 @@ var psswrdgen = function() {
               console.log(roundednumber);
               console.log(charscmplt.length);
 
+              psswrd += charscmplt.substring(roundednumber, roundednumber +1);
 
-              
+              console.log(psswrd)
 
-              
+              // first test done, it works!
 
             }
 
